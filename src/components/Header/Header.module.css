@@ -1,0 +1,59 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 100px;
+}
+.Header img {
+  cursor: pointer;
+}
+.optionIcon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 24px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 16px;
+  gap: 16px;
+  background: rgba(0, 0, 0, 0.14);
+  border-radius: 16px;
+  border: 1px solid #737373;
+  width: 480px;
+}
+
+.Icon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f8fafc;
+}
+.searchText {
+  border: none;
+  background: rgba(0, 0, 0, 0.14);
+  width: 100%;
+}
+
+.searchtext::placeholder {
+  color: #9ca3af;
+  font-family: __Inter_d8ebd1;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.progFile {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.castIcon {
+  width: 26px;
+  height: 26px;
+}

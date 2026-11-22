@@ -1,0 +1,45 @@
+.SideBar {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 100%;
+}
+.mainLogo {
+  display: flex;
+  padding: 24px 24px;
+  width: 193px;
+}
+
+.mainButton {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.mainButton.homeButton.compassButton.musicButton {
+  :hover {
+    background-color: white;
+  }
+}
+
+.buttons p {
+  color: #f8fafc;
+  font-family: __Inter_d8ebd1;
+  font-size: 16px;
+}
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-content: center;
+}
+
+.mainButton img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}

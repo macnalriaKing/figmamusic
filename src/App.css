@@ -1,0 +1,21 @@
+* {
+  background-color: black;
+}
+.onlySidebar {
+  height: 100%;
+  background-color: green;
+}
+
+.uiSplit {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  height: 100vh;
+}
+
+.changeUI {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: blue;
+}
