@@ -1,0 +1,30 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  button {
+    display: flex;
+    height: 38px;
+    padding: 0 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: rgba(144, 144, 144, 0.2);
+  }
+  p {
+    color: #f8fafc;
+    font-family: __Inter_d8ebd1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.storageList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 44px 100px 0 100px;
+}

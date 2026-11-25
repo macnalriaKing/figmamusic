@@ -1,6 +1,3 @@
-* {
-  background-color: black;
-}
 .onlySidebar {
   height: 100%;
   background-color: green;
@@ -17,5 +14,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: blue;
+  height: 100%;
+  background-color: black;
 }

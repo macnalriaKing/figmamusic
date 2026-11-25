@@ -1,21 +1,22 @@
 .SideBar {
-  background-color: aqua;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 240px;
+  justify-content: flex-start;
+  width: 100%;
   height: 100%;
 }
 .mainLogo {
   display: flex;
-  padding: 24px 24px;
-  width: 193px;
+  padding: 24px 115px 24px 24px;
+  width: 100%;
 }
 
 .mainButton {
+  background-color: black;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 .mainButton.homeButton.compassButton.musicButton {
@@ -23,17 +24,29 @@
     background-color: white;
   }
 }
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+  width: 100%;
+  gap: 24px;
+}
 
 .buttons p {
   color: #f8fafc;
   font-family: __Inter_d8ebd1;
   font-size: 16px;
 }
-.test {
+.textAndIcon {
+  background-color: black;
   display: flex;
   flex-direction: row;
-  justify-items: center;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
 }
 
 .mainButton img {
@@ -42,4 +55,65 @@
   justify-content: center;
   width: 24px;
   height: 24px;
+}
+.historyText {
+  color: #f8fafc;
+  font-family: __Inter_d8ebd1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.history {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: #262626;
+  border: none;
+  width: 100%;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  padding: 24px 24px 0 24px;
+}
+.section3mainstxt {
+  color: #f8fafc;
+  font-family: __Inter_d8ebd1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.section3subtxt {
+  color: #737373;
+  font-family: __Inter_d8ebd1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.playlistObj {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 28px;
+  border: none;
+}
+.playlist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 35px;
+  border: none;
+  padding: 24px 0 0 0;
 }
